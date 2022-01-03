@@ -224,11 +224,4 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return sectionsTitle[section]
     }
-
-//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-//        let defaultOffest = view.safeAreaInsets.top
-//        let offset = scrollView.contentOffset.y + defaultOffest
-//        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
-//    }
-
 }

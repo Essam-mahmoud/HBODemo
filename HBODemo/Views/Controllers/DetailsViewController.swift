@@ -41,7 +41,7 @@ class DetailsViewController: UIViewController {
 
     func posterImageViewConstraints() {
         posterImage.heightAnchor.constraint(equalToConstant: view.bounds.height / 2).isActive = true
-        posterImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 80).isActive = true
+        posterImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 90).isActive = true
         posterImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         posterImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
 
